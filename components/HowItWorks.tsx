@@ -1,4 +1,0 @@
-import { ArrowRight } from "lucide-react";
-import Reveal from "./Reveal";
-const steps = [["01", "Entre", "Escolha fazer parte do Clube e abra espaço para novas ideias."], ["02", "Explore", "Acesse materiais organizados para consultar no momento certo."], ["03", "Coloque em prática", "Teste, adapte e leve o que fizer sentido para o seu negócio."]];
-export default function HowItWorks() { return <section id="como-funciona" className="how"><div className="container"><Reveal><p className="eyebrow">Um jeito simples de começar</p><h2>Entre. Explore. <em>Avance.</em></h2></Reveal><div className="how-grid">{steps.map(([n, title, text], i) => <Reveal key={n} delay={i * .12}><article><strong>{n}</strong><h3>{title}</h3><p>{text}</p>{i < 2 && <ArrowRight className="step-arrow" />}</article></Reveal>)}</div></div></section>; }
