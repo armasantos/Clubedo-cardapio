@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clube do Cardápio — Organize sua alimentação com praticidade</title>
+  <meta name="description" content="Planeje suas refeições, organize suas compras e prepare receitas simples sem decidir tudo na última hora. Cardápios de 7 e 30 dias para idosos, famílias e quem leva marmita.">
+  <meta name="keywords" content="cardápio, alimentação saudável, planejamento alimentar, lista de compras, receitas, nutrição">
+  <meta name="author" content="Rita Magalhães — Nutricionista">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Clube do Cardápio — Organize sua alimentação com praticidade">
+  <meta property="og:description" content="Planeje suas refeições, organize suas compras e prepare receitas simples sem decidir tudo na última hora.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.clubedocardapio.com.br">
+  <meta property="og:image" content="https://www.clubedocardapio.com.br/images/og-image.jpg">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Clube do Cardápio">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Clube do Cardápio — Organize sua alimentação com praticidade">
+  <meta name="twitter:description" content="Planeje suas refeições, organize suas compras e prepare receitas simples sem decidir tudo na última hora.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍽️</text></svg>">
+
+  <!-- Preload critical font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Clube do Cardápio",
+    "url": "https://www.clubedocardapio.com.br",
+    "description": "Serviço de planejamento alimentar com cardápios semanais, receitas e listas de compras.",
+    "founder": {
+      "@type": "Person",
+      "name": "Rita Magalhães",
+      "jobTitle": "Nutricionista"
+    }
+  }
+  </script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- ============================================ -->
+  <!-- NAVBAR -->
+  <!-- ============================================ -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Menu principal">
+    <div class="container navbar__inner">
+      <a href="/" class="navbar__logo" aria-label="Clube do Cardápio — Página inicial">
+        <span class="navbar__logo-icon">🍽️</span>
+        <span class="navbar__logo-text">Clube do Cardápio</span>
+      </a>
+      <ul class="navbar__links" id="navLinks" role="menubar">
+        <li role="none"><a href="#como-funciona" role="menuitem" class="navbar__link">Como Funciona</a></li>
+        <li role="none"><a href="#cardapios" role="menuitem" class="navbar__link">Cardápios</a></li>
+        <li role="none"><a href="#sobre" role="menuitem" class="navbar__link">Sobre</a></li>
+        <li role="none"><a href="#oferta" role="menuitem" class="navbar__link navbar__link--cta">Quero Conhecer</a></li>
+      </ul>
+      <button class="navbar__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navLinks">
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <!-- ============================================ -->
+    <!-- HERO -->
+    <!-- ============================================ -->
+    <section class="hero" id="hero">
+      <div class="hero__bg">
+        <img
+          src="https://images.unsplash.com/photo-1547592180-85f173990554?w=1600&q=80"
+          alt="Mesa com refeições variadas e coloridas, com vegetais frescos e pratos organizados"
+          class="hero__bg-img"
+          loading="eager"
+          fetchpriority="high"
+        >
+        <div class="hero__overlay"></div>
+      </div>
+      <div class="container hero__content">
+        <div class="hero__badge">Organização alimentar com praticidade</div>
+        <h1 class="hero__title">
+          Seu cardápio da semana<br>
+          <span class="hero__title--accent">já pode estar pronto.</span>
+        </h1>
+        <p class="hero__subtitle">
+          Planeje suas refeições, organize suas compras e prepare receitas simples — sem precisar decidir tudo na última hora.
+        </p>
+        <div class="hero__cta-group">
+          <a href="#cardapios" class="btn btn--primary btn--lg">Quero Conhecer o Clube do Cardápio</a>
+          <a href="#como-funciona" class="btn btn--ghost btn--lg">Como funciona?</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SOCIAL PROOF BAR -->
+    <!-- ============================================ -->
+    <section class="proof-bar" aria-label="Diferenciais">
+      <div class="container proof-bar__inner">
+        <div class="proof-bar__item">
+          <span class="proof-bar__icon">📋</span>
+          <span class="proof-bar__text">Cardápios planejados</span>
+        </div>
+        <div class="proof-bar__divider" aria-hidden="true"></div>
+        <div class="proof-bar__item">
+          <span class="proof-bar__icon">🛒</span>
+          <span class="proof-bar__text">Listas de compras prontas</span>
+        </div>
+        <div class="proof-bar__divider" aria-hidden="true"></div>
+        <div class="proof-bar__item">
+          <span class="proof-bar__icon">👨‍🍳</span>
+          <span class="proof-bar__text">Receitas simples e práticas</span>
+        </div>
+        <div class="proof-bar__divider" aria-hidden="true"></div>
+        <div class="proof-bar__item">
+          <span class="proof-bar__icon">📱</span>
+          <span class="proof-bar__text">Entrega digital imediata</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- PROBLEMA -->
+    <!-- ============================================ -->
+    <section class="problem" id="problema">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">O problema do dia a dia</span>
+          <h2 class="section-title">Chegou a hora de comer.<br><span class="text-accent">E agora?</span></h2>
+          <p class="section-desc">
+            Parece simples, mas todo dia a mesma dúvida aparece. E quando a organização falta, a frustração também aparece.
+          </p>
+        </div>
+        <div class="problem__grid">
+          <div class="problem__card" data-animate>
+            <div class="problem__card-icon">😰</div>
+            <h3 class="problem__card-title">Abrir a geladeira e não saber o que fazer</h3>
+            <p class="problem__card-desc">Tem ingredientes, mas falta um plano. Aí vai o tempo passando e a frustração aumentando.</p>
+          </div>
+          <div class="problem__card" data-animate>
+            <div class="problem__card-icon">🛒</div>
+            <h3 class="problem__card-title">Comprar sem planejamento</h3>
+            <p class="problem__card-desc">Sem uma lista, sempre esquece algo importante e acaba levando coisas desnecessárias.</p>
+          </div>
+          <div class="problem__card" data-animate>
+            <div class="problem__card-icon">♻️</div>
+            <h3 class="problem__card-title">Desperdiçar alimentos</h3>
+            <p class="problem__card-desc">Comida estraga na geladeira porque não tinha um uso planejado para ela.</p>
+          </div>
+          <div class="problem__card" data-animate>
+            <div class="problem__card-icon">🔄</div>
+            <h3 class="problem__card-title">Repetir sempre as mesmas refeições</h3>
+            <p class="problem__card-desc">Arroz, feijão, frango... a rotina na cozinha vira um loop sem fim.</p>
+          </div>
+          <div class="problem__card" data-animate>
+            <div class="problem__card-icon">⏰</div>
+            <h3 class="problem__card-title">Decidir tudo na última hora</h3>
+            <p class="problem__card-desc">É estresse, é pressa, é comer qualquer coisa só para resolver.</p>
+          </div>
+          <div class="problem__card" data-animate>
+            <div class="problem__card-icon">😤</div>
+            <h3 class="problem__card-title">A organização que falta</h3>
+            <p class="problem__card-desc">Não é falta de vontade. É falta de um caminho claro para seguir.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SOLUÇÃO -->
+    <!-- ============================================ -->
+    <section class="solution" id="solucao">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">A solução</span>
+          <h2 class="section-title">Um planejamento alimentar<br><span class="text-accent">que simplifica tudo.</span></h2>
+          <p class="section-desc">
+            O Clube do Cardápio não é apenas um PDF de dieta. É uma ferramenta que organiza suas refeições, suas compras e suas preparações — de forma simples e prática.
+          </p>
+        </div>
+        <div class="solution__grid">
+          <div class="solution__card" data-animate>
+            <div class="solution__card-visual">
+              <div class="solution__card-icon-wrap">
+                <svg class="solution__card-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2"/>
+                  <rect x="9" y="3" width="6" height="4" rx="1"/>
+                  <path d="M9 14l2 2 4-4"/>
+                </svg>
+              </div>
+            </div>
+            <h3 class="solution__card-title">Cardápio</h3>
+            <p class="solution__card-desc">Você sabe exatamente o que preparar em cada refeição. Sem dúvida, sem hesitação.</p>
+          </div>
+          <div class="solution__card" data-animate>
+            <div class="solution__card-visual">
+              <div class="solution__card-icon-wrap">
+                <svg class="solution__card-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M12 6v6l4 2"/>
+                  <circle cx="12" cy="12" r="10"/>
+                </svg>
+              </div>
+            </div>
+            <h3 class="solution__card-title">Receitas</h3>
+            <p class="solution__card-desc">Passo a passo claro e simples. Você sabe como preparar cada prato com facilidade.</p>
+          </div>
+          <div class="solution__card" data-animate>
+            <div class="solution__card-visual">
+              <div class="solution__card-icon-wrap">
+                <svg class="solution__card-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/>
+                  <line x1="3" y1="6" x2="21" y2="6"/>
+                  <path d="M16 10a4 4 0 01-8 0"/>
+                </svg>
+              </div>
+            </div>
+            <h3 class="solution__card-title">Lista de Compras</h3>
+            <p class="solution__card-desc">Compre somente o que precisa. Sem desperdício, sem esquecimentos, sem sobras.</p>
+          </div>
+        </div>
+        <div class="solution__journey" data-animate>
+          <div class="solution__journey-label">A jornada completa</div>
+          <div class="solution__journey-steps">
+            <div class="solution__journey-step">
+              <span class="solution__journey-num">1</span>
+              <span class="solution__journey-text">Escolher</span>
+            </div>
+            <div class="solution__journey-arrow" aria-hidden="true">→</div>
+            <div class="solution__journey-step">
+              <span class="solution__journey-num">2</span>
+              <span class="solution__journey-text">Comprar</span>
+            </div>
+            <div class="solution__journey-arrow" aria-hidden="true">→</div>
+            <div class="solution__journey-step">
+              <span class="solution__journey-num">3</span>
+              <span class="solution__journey-text">Preparar</span>
+            </div>
+            <div class="solution__journey-arrow" aria-hidden="true">→</div>
+            <div class="solution__journey-step">
+              <span class="solution__journey-num">4</span>
+              <span class="solution__journey-text">Comer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- 3 PÚBLICOS -->
+    <!-- ============================================ -->
+    <section class="audiences" id="cardapios">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Para quem é</span>
+          <h2 class="section-title">Escolha o caminho<br><span class="text-accent">que faz sentido para você.</span></h2>
+          <p class="section-desc">
+            Cada pessoa tem uma rotina diferente. Por isso, o Clube do Cardápio oferece cardápios pensados para diferentes necessidades.
+          </p>
+        </div>
+        <div class="audiences__grid">
+          <!-- IDOSOS -->
+          <article class="audience-card" data-animate>
+            <div class="audience-card__img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&q=80"
+                alt="Prato colorido com legumes cozidos e proteína, apresentação cuidadosa"
+                class="audience-card__img"
+                loading="lazy"
+              >
+              <div class="audience-card__img-overlay"></div>
+              <span class="audience-card__badge">Para Idosos</span>
+            </div>
+            <div class="audience-card__body">
+              <h3 class="audience-card__title">Cardápio para Idosos</h3>
+              <p class="audience-card__desc">
+                Refeições balanceadas, fáceis de preparar e pensadas para atender as necessidades de uma alimentação adequada na terceira idade.
+              </p>
+              <a href="/idosos/" class="btn btn--primary btn--full">
+                Conhecer este cardápio
+                <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- FAMÍLIAS -->
+          <article class="audience-card" data-animate>
+            <div class="audience-card__img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1567521464027-f127ff144326?w=600&q=80"
+                alt="Mesa de família com vários pratos diferentes e ingredientes frescos"
+                class="audience-card__img"
+                loading="lazy"
+              >
+              <div class="audience-card__img-overlay"></div>
+              <span class="audience-card__badge">Para Famílias</span>
+            </div>
+            <div class="audience-card__body">
+              <h3 class="audience-card__title">Cardápio para Famílias</h3>
+              <p class="audience-card__desc">
+                Organize as refeições de toda a família com um planejamento pensado para agradar diferentes gostos e necessidades.
+              </p>
+              <a href="/familias/" class="btn btn--primary btn--full">
+                Conhecer este cardápio
+                <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- MARMITA -->
+          <article class="audience-card" data-animate>
+            <div class="audience-card__img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80"
+                alt="Marmita organizada com arroz, legumes grelhados e proteína"
+                class="audience-card__img"
+                loading="lazy"
+              >
+              <div class="audience-card__img-overlay"></div>
+              <span class="audience-card__badge">Para quem leva Marmita</span>
+            </div>
+            <div class="audience-card__body">
+              <h3 class="audience-card__title">Cardápio para Marmita</h3>
+              <p class="audience-card__desc">
+                Planeje suas marmitas da semana com economia, organização e variedade. Chega de repetir sempre a mesma comida.
+              </p>
+              <a href="/marmita/" class="btn btn--primary btn--full">
+                Conhecer este cardápio
+                <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- COMO FUNCIONA -->
+    <!-- ============================================ -->
+    <section class="how" id="como-funciona">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Simples e direto</span>
+          <h2 class="section-title">Como funciona o<br><span class="text-accent">Clube do Cardápio?</span></h2>
+        </div>
+        <div class="how__steps">
+          <div class="how__step" data-animate>
+            <div class="how__step-num">01</div>
+            <div class="how__step-content">
+              <h3 class="how__step-title">Escolha seu perfil</h3>
+              <p class="how__step-desc">Selecione entre os cardápios para Idosos, Famílias ou para quem leva Marmita.</p>
+            </div>
+          </div>
+          <div class="how__step" data-animate>
+            <div class="how__step-num">02</div>
+            <div class="how__step-content">
+              <h3 class="how__step-title">Receba seu cardápio</h3>
+              <p class="how__step-desc">Um PDF organizado com todas as suas refeições planejadas, receitas e lista de compras.</p>
+            </div>
+          </div>
+          <div class="how__step" data-animate>
+            <div class="how__step-num">03</div>
+            <div class="how__step-content">
+              <h3 class="how__step-title">Faça suas compras</h3>
+              <p class="how__step-desc">Utilize a lista de compras pronta para ir direto ao ponto no mercado.</p>
+            </div>
+          </div>
+          <div class="how__step" data-animate>
+            <div class="how__step-num">04</div>
+            <div class="how__step-content">
+              <h3 class="how__step-title">Prepare suas refeições</h3>
+              <p class="how__step-desc">Siga as receitas claras e simples. Sem complicação, sem dúvida.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- PRODUTO 7 DIAS -->
+    <!-- ============================================ -->
+    <section class="product" id="produto-7">
+      <div class="container">
+        <div class="product__layout">
+          <div class="product__visual" data-animate>
+            <div class="product__mockup">
+              <div class="product__mockup-page product__mockup-page--back">
+                <div class="product__mockup-content">
+                  <div class="product__mockup-header"></div>
+                  <div class="product__mockup-line"></div>
+                  <div class="product__mockup-line product__mockup-line--short"></div>
+                  <div class="product__mockup-grid">
+                    <div class="product__mockup-cell"></div>
+                    <div class="product__mockup-cell"></div>
+                    <div class="product__mockup-cell"></div>
+                    <div class="product__mockup-cell"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="product__mockup-page product__mockup-page--front">
+                <div class="product__mockup-content">
+                  <div class="product__mockup-cover">
+                    <span class="product__mockup-emoji">🍽️</span>
+                    <span class="product__mockup-label">Cardápio</span>
+                    <span class="product__mockup-sublabel">7 Dias</span>
+                    <div class="product__mockup-divider"></div>
+                    <span class="product__mockup-small">Receitas + Lista de Compras</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product__info" data-animate>
+            <span class="section-tag">Produto de entrada</span>
+            <h2 class="product__title">Cardápio de 7 Dias</h2>
+            <p class="product__desc">
+              Uma semana inteira de refeições planejadas. Você recebe um PDF completo com todas as suas refeições, receitas detalhadas e uma lista de compras organizada.
+            </p>
+            <ul class="product__features">
+              <li class="product__feature">
+                <svg class="product__feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+                <span>Planejamento de 7 dias completo</span>
+              </li>
+              <li class="product__feature">
+                <svg class="product__feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+                <span>Café da manhã, almoço e jantar</span>
+              </li>
+              <li class="product__feature">
+                <svg class="product__feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+                <span>Receitas claras e práticas</span>
+              </li>
+              <li class="product__feature">
+                <svg class="product__feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+                <span>Lista de compras organizada</span>
+              </li>
+              <li class="product__feature">
+                <svg class="product__feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+                <span>Entrega digital imediata</span>
+              </li>
+            </ul>
+            <a href="#oferta" class="btn btn--primary">Conhecer opção de 7 dias</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- PRODUTO 30 DIAS -->
+    <!-- ============================================ -->
+    <section class="product product--alt" id="produto-30">
+      <div class="container">
+        <div class="product__layout product__layout--reverse">
+          <div class="product__visual" data-animate>
+            <div class="product__weeks">
+              <div class="product__week" data-animate>
+                <div class="product__week-header">
+                  <span class="product__week-num">Semana 1</span>
+                  <span class="product__week-badge">Novo PDF</span>
+                </div>
+                <div class="product__week-items">
+                  <span>📋 Cardápio</span>
+                  <span>👨‍🍳 Receitas</span>
+                  <span>🛒 Lista</span>
+                </div>
+              </div>
+              <div class="product__week-arrow" aria-hidden="true">↓</div>
+              <div class="product__week" data-animate>
+                <div class="product__week-header">
+                  <span class="product__week-num">Semana 2</span>
+                  <span class="product__week-badge">Novo PDF</span>
+                </div>
+                <div class="product__week-items">
+                  <span>📋 Cardápio</span>
+                  <span>👨‍🍳 Receitas</span>
+                  <span>🛒 Lista</span>
+                </div>
+              </div>
+              <div class="product__week-arrow" aria-hidden="true">↓</div>
+              <div class="product__week" data-animate>
+                <div class="product__week-header">
+                  <span class="product__week-num">Semana 3</span>
+                  <span class="product__week-badge">Novo PDF</span>
+                </div>
+                <div class="product__week-items">
+                  <span>📋 Cardápio</span>
+                  <span>👨‍🍳 Receitas</span>
+                  <span>🛒 Lista</span>
+                </div>
+              </div>
+              <div class="product__week-arrow" aria-hidden="true">↓</div>
+              <div class="product__week" data-animate>
+                <div class="product__week-header">
+                  <span class="product__week-num">Semana 4</span>
+                  <span class="product__week-badge">Novo PDF</span>
+                </div>
+                <div class="product__week-items">
+                  <span>📋 Cardápio</span>
+                  <span>👨‍🍳 Receitas</span>
+                  <span>🛒 Lista</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product__info" data-animate>
+            <span class="section-tag">Continuidade</span>
+            <h2 class="product__title">Cardápio de 30 Dias</h2>
+            <p class="product__desc">
+              Um mês inteiro de organização alimentar. Você recebe um novo planejamento a cada 7 dias, com receitas e lista de compras atualizada. Sem precisar receber tudo de uma vez.
+            </p>
+            <ul class="product__features">
+              <li class="product__feature">
+                <svg class="product__feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+                <span>Planejamento completo de 30 dias</span>
+              </li>
+              <li class="product__feature">
+                <svg class="product__feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+                <span>Novo PDF a cada 7 dias</span>
+              </li>
+              <li class="product__feature">
+                <svg class="product__feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+                <span>Receitas detalhadas a cada entrega</span>
+              </li>
+              <li class="product__feature">
+                <svg class="product__feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+                <span>Lista de compras semanal atualizada</span>
+              </li>
+              <li class="product__feature">
+                <svg class="product__feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+                <span>Continuidade e organização mensal</span>
+              </li>
+            </ul>
+            <a href="#oferta" class="btn btn--primary">Conhecer opção de 30 dias</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SOBRE RITA -->
+    <!-- ============================================ -->
+    <section class="about" id="sobre">
+      <div class="container">
+        <div class="about__layout">
+          <div class="about__visual" data-animate>
+            <div class="about__img-frame">
+              <img
+                src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80"
+                alt="Rita Magalhães, nutricionista, em ambiente profissional"
+                class="about__img"
+                loading="lazy"
+              >
+            </div>
+          </div>
+          <div class="about__info" data-animate>
+            <span class="section-tag">Quem cria os cardápios</span>
+            <h2 class="about__title">Rita Magalhães</h2>
+            <p class="about__role">Nutricionista</p>
+            <p class="about__desc">
+              Rita é a responsável por todo o planejamento alimentar do Clube do Cardápio. Cada cardápio, receita e lista de composição é elaborado com atenção, cuidado e conhecimento técnico, para oferecer uma experiência prática e confiável.
+            </p>
+            <p class="about__desc">
+              O objetivo é simples: ajudar você a organizar sua alimentação de forma clara, sem complicação e com mais autonomia no dia a dia.
+            </p>
+            <div class="about__social">
+              <a href="https://instagram.com/ritamagalhaesnutricionista" target="_blank" rel="noopener noreferrer" class="about__social-link" aria-label="Instagram de Rita Magalhães">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+                @ritamagalhaesnutricionista
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- OFERTA -->
+    <!-- ============================================ -->
+    <section class="offer" id="oferta">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Escolha sua opção</span>
+          <h2 class="section-title">Qual cardápio faz<br><span class="text-accent">mais sentido para você?</span></h2>
+        </div>
+        <div class="offer__grid">
+          <!-- 7 DIAS -->
+          <div class="offer__card" data-animate>
+            <div class="offer__card-header">
+              <span class="offer__card-tag">Entrada</span>
+              <h3 class="offer__card-title">Cardápio de 7 Dias</h3>
+              <p class="offer__card-subtitle">Comece com uma semana organizada</p>
+            </div>
+            <div class="offer__card-body">
+              <ul class="offer__card-list">
+                <li>Planejamento de 7 dias</li>
+                <li>Café da manhã, almoço e jantar</li>
+                <li>Receitas práticas e detalhadas</li>
+                <li>Lista de compras organizada</li>
+                <li>PDF digital para baixar</li>
+                <li>Entrega imediata</li>
+              </ul>
+              <a href="#" class="btn btn--outline btn--full offer__card-btn" data-product="7dias">
+                Conhecer este cardápio
+                <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- 30 DIAS -->
+          <div class="offer__card offer__card--featured" data-animate>
+            <div class="offer__card-ribbon">Mais escolhido</div>
+            <div class="offer__card-header">
+              <span class="offer__card-tag">Continuidade</span>
+              <h3 class="offer__card-title">Cardápio de 30 Dias</h3>
+              <p class="offer__card-subtitle">Um mês completo de organização</p>
+            </div>
+            <div class="offer__card-body">
+              <ul class="offer__card-list">
+                <li>Planejamento completo de 30 dias</li>
+                <li>Novo PDF entregue a cada 7 dias</li>
+                <li>Receitas detalhadas em cada entrega</li>
+                <li>Lista de compras semanal atualizada</li>
+                <li>PDF digital para baixar</li>
+                <li>Continuidade e organização mensal</li>
+              </ul>
+              <a href="#" class="btn btn--primary btn--full offer__card-btn" data-product="30dias">
+                Conhecer este cardápio
+                <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- FAQ -->
+    <!-- ============================================ -->
+    <section class="faq" id="faq">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Perguntas frequentes</span>
+          <h2 class="section-title">Tire suas dúvidas</h2>
+        </div>
+        <div class="faq__list">
+          <details class="faq__item" data-animate>
+            <summary class="faq__question">
+              <span>O que recebo ao comprar o Clube do Cardápio?</span>
+              <svg class="faq__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+            </summary>
+            <div class="faq__answer">
+              <p>Você recebe um arquivo PDF digital contendo o planejamento completo das suas refeições, receitas detalhadas e uma lista de compras organizada para facilitar seu dia a dia.</p>
+            </div>
+          </details>
+
+          <details class="faq__item" data-animate>
+            <summary class="faq__question">
+              <span>Como recebo meu cardápio?</span>
+              <svg class="faq__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+            </summary>
+            <div class="faq__answer">
+              <p>Após a confirmação da compra, você recebe o acesso ao PDF por e-mail. O material é digital e pode ser baixado e acessado em qualquer dispositivo.</p>
+            </div>
+          </details>
+
+          <details class="faq__item" data-animate>
+            <summary class="faq__question">
+              <span>O cardápio é digital?</span>
+              <svg class="faq__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+            </summary>
+            <div class="faq__answer">
+              <p>Sim, todo o material é digital. Você recebe um PDF que pode acessar pelo celular, tablet ou computador.</p>
+            </div>
+          </details>
+
+          <details class="faq__item" data-animate>
+            <summary class="faq__question">
+              <span>O que acompanha o cardápio?</span>
+              <svg class="faq__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+            </summary>
+            <div class="faq__answer">
+              <p>Cada cardápio acompanha o planejamento das refeições (café da manhã, almoço e jantar), receitas detalhadas e uma lista de compras organizada.</p>
+            </div>
+          </details>
+
+          <details class="faq__item" data-animate>
+            <summary class="faq__question">
+              <span>Recebo lista de compras?</span>
+              <svg class="faq__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+            </summary>
+            <div class="faq__answer">
+              <p>Sim! A lista de compras é um dos diferenciais do Clube do Cardápio. Ela vem organizada para que você compre somente o que precisa, sem esquecimentos e sem desperdício.</p>
+            </div>
+          </details>
+
+          <details class="faq__item" data-animate>
+            <summary class="faq__question">
+              <span>As preparações possuem receitas?</span>
+              <svg class="faq__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+            </summary>
+            <div class="faq__answer">
+              <p>Sim, todas as preparações possuem receitas detalhadas com passo a passo claro e simples, pensadas para serem fáceis de seguir.</p>
+            </div>
+          </details>
+
+          <details class="faq__item" data-animate>
+            <summary class="faq__question">
+              <span>Como funciona o cardápio de 30 dias?</span>
+              <svg class="faq__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+            </summary>
+            <div class="faq__answer">
+              <p>No cardápio de 30 dias, você recebe um novo PDF a cada 7 dias. Cada entrega contém o planejamento da semana, receitas e lista de compras. Assim, você vai organizando sua alimentação ao longo do mês, sem precisar receber tudo de uma vez.</p>
+            </div>
+          </details>
+
+          <details class="faq__item" data-animate>
+            <summary class="faq__question">
+              <span>Qual a diferença entre 7 e 30 dias?</span>
+              <svg class="faq__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+            </summary>
+            <div class="faq__answer">
+              <p>O cardápio de 7 dias é uma semana completa — ideal para quem quer começar. O de 30 dias oferece continuidade, com entregas semanais ao longo do mês.</p>
+            </div>
+          </details>
+
+          <details class="faq__item" data-animate>
+            <summary class="faq__question">
+              <span>Para quem é o Clube do Cardápio?</span>
+              <svg class="faq__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+            </summary>
+            <div class="faq__answer">
+              <p>Para quem quer organizar a alimentação de forma prática: idosos, famílias e quem leva marmita para o trabalho. Cada público tem um cardápio pensado para suas necessidades.</p>
+            </div>
+          </details>
+
+          <details class="faq__item" data-animate>
+            <summary class="faq__question">
+              <span>Como faço para comprar?</span>
+              <svg class="faq__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+            </summary>
+            <div class="faq__answer">
+              <p>Escolha o cardápio ideal para você, clique em "Conhecer este cardápio" e siga o processo de compra. O pagamento é processado de forma segura e você recebe o material por e-mail.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- CTA FINAL -->
+    <!-- ============================================ -->
+    <section class="cta-final" id="cta-final">
+      <div class="cta-final__bg">
+        <img
+          src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1600&q=80"
+          alt="Ingredientes frescos organizados sobre uma superfície de madeira"
+          class="cta-final__bg-img"
+          loading="lazy"
+        >
+        <div class="cta-final__overlay"></div>
+      </div>
+      <div class="container cta-final__content" data-animate>
+        <h2 class="cta-final__title">
+          Menos decisões na hora de comer.<br>
+          <span class="cta-final__title--accent">Mais organização para a sua semana.</span>
+        </h2>
+        <p class="cta-final__desc">
+          Comece agora com um planejamento alimentar pensado para facilitar sua vida. Escolha o cardápio ideal e transforme a forma como você organiza suas refeições.
+        </p>
+        <a href="#oferta" class="btn btn--primary btn--lg">Quero Organizar Meu Cardápio</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================ -->
+  <!-- FOOTER -->
+  <!-- ============================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="/" class="footer__logo" aria-label="Clube do Cardápio">
+          <span class="navbar__logo-icon">🍽️</span>
+          <span class="navbar__logo-text">Clube do Cardápio</span>
+        </a>
+        <p class="footer__tagline">Organize sua alimentação com praticidade.</p>
+      </div>
+      <div class="footer__links">
+        <div class="footer__col">
+          <h4 class="footer__col-title">Cardápios</h4>
+          <ul>
+            <li><a href="/idosos/">Para Idosos</a></li>
+            <li><a href="/familias/">Para Famílias</a></li>
+            <li><a href="/marmita/">Para quem leva Marmita</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Clube do Cardápio</h4>
+          <ul>
+            <li><a href="#como-funciona">Como Funciona</a></li>
+            <li><a href="#sobre">Sobre Rita</a></li>
+            <li><a href="#faq">Perguntas Frequentes</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Redes Sociais</h4>
+          <ul>
+            <li>
+              <a href="https://instagram.com/clubedocardapio" target="_blank" rel="noopener noreferrer" aria-label="Instagram do Clube do Cardápio">
+                @clubedocardapio
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com/ritamagalhaesnutricionista" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Rita Magalhães">
+                @ritamagalhaesnutricionista
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Clube do Cardápio. Todos os direitos reservados.</p>
+        <p>Desenvolvido com cuidado por <a href="https://www.clubedocardapio.com.br" target="_blank" rel="noopener noreferrer">Clube do Cardápio</a>.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
