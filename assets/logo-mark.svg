@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Clube do Cardápio">
+  <!-- Fundo: selo circular olive -->
+  <circle cx="100" cy="100" r="98" fill="#3D5A3E"/>
+
+  <!-- Anel decorativo interno -->
+  <circle cx="100" cy="100" r="80" fill="none" stroke="#F5F0E8" stroke-opacity="0.3" stroke-width="2"/>
+
+  <!-- Cardápio (cartão de menu) -->
+  <g transform="rotate(-6 100 100)">
+    <rect x="52" y="62" width="96" height="76" rx="9" fill="#F5F0E8"/>
+
+    <!-- Refeições planejadas: 3 marcadores + linhas -->
+    <circle cx="66" cy="82" r="4.5" fill="#D4763C"/>
+    <line x1="80" y1="82" x2="132" y2="82" stroke="#2C4430" stroke-width="6" stroke-linecap="round"/>
+
+    <circle cx="66" cy="100" r="4.5" fill="#D4763C"/>
+    <line x1="80" y1="100" x2="132" y2="100" stroke="#2C4430" stroke-width="6" stroke-linecap="round"/>
+
+    <circle cx="66" cy="118" r="4.5" fill="#D4763C"/>
+    <line x1="80" y1="118" x2="124" y2="118" stroke="#2C4430" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Folha de frescor -->
+  <g transform="translate(142 56) rotate(-38)">
+    <ellipse cx="0" cy="0" rx="10" ry="4.6" fill="#E8945E"/>
+    <line x1="-8" y1="0" x2="8" y2="0" stroke="#B8622E" stroke-width="1.6" stroke-linecap="round"/>
+  </g>
+</svg>
