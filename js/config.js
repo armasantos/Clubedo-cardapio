@@ -19,14 +19,16 @@ window.CC_CONFIG = {
     razaoSocial: "",           // ex.: "BESILVA LTDA"
     cnpj: "",                  // ex.: "00.000.000/0001-00"
     email: "contato@clubedocardapio.com.br",
-    whatsapp: "",              // só números com DDI e DDD, ex.: "5511999999999"
-    instagram: "",             // ex.: "clubedocardapio" (sem @)
+    whatsapp: "5511986276303", // só números com DDI e DDD
+    whatsappExibicao: "(11) 98627-6303",
+    instagram: "clubedocardapio", // sem @
   },
 
   /* ---- Responsável técnica ---- */
   rita: {
     nome: "Rita Magalhães",
     crn: "",                   // ex.: "CRN-3 00000"
+    instagram: "ritamagalhaesnutricionista", // sem @
   },
 
   /* ---- Produtos (links de checkout da Eduzz e preços) ----

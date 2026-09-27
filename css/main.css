@@ -352,15 +352,22 @@ p { text-wrap: pretty; }
 .faq details > div { padding: 0 22px 20px; color: var(--cafe-suave); }
 
 /* ---------- Rodapé ---------- */
-.rodape { background: var(--cafe); color: #E9DCCB; padding: 56px 0 110px; font-size: var(--fs-sm); }
+.rodape { background: var(--cafe); color: #E9DCCB; padding: 64px 0 110px; font-size: var(--fs-sm); }
 @media (min-width: 900px) { .rodape { padding-bottom: 40px; } }
-.rodape a { color: var(--creme); }
-.rodape__grade { display: grid; gap: 32px; }
-@media (min-width: 800px) { .rodape__grade { grid-template-columns: 1.4fr 1fr 1fr; } }
-.rodape__logo img { height: 52px; width: auto; margin-bottom: 14px; }
-.rodape h4 { font: 800 .8rem/1 var(--f-texto); letter-spacing: .18em; text-transform: uppercase; color: var(--sol); margin-bottom: 14px; }
-.rodape ul { list-style: none; padding: 0; display: grid; gap: 8px; }
-.rodape__legal { border-top: 1px solid rgba(233, 220, 203, .2); margin-top: 36px; padding-top: 20px; display: grid; gap: 6px; font-size: .85rem; }
+.rodape a { color: #E9DCCB; text-decoration: none; transition: color var(--t); }
+.rodape a:hover { color: var(--sol); }
+.rodape__marca { max-width: 380px; margin-bottom: 44px; }
+.rodape__logo img { height: 56px; width: auto; margin-bottom: 16px; }
+.rodape__marca p { font-size: var(--fs-base); }
+.rodape__grade { display: grid; gap: 32px 24px; grid-template-columns: 1fr; }
+.rodape__grade > * { min-width: 0; }
+.rodape a { overflow-wrap: anywhere; }
+@media (min-width: 560px) { .rodape__grade { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 900px) { .rodape__grade { grid-template-columns: repeat(4, 1fr); } }
+.rodape h4 { font: 800 1.2rem/1.2 var(--f-titulo); color: var(--creme); margin-bottom: 18px; }
+.rodape ul { list-style: none; padding: 0; display: grid; gap: 12px; }
+.rodape__legal { border-top: 1px solid rgba(233, 220, 203, .2); margin-top: 48px; padding-top: 22px; display: grid; gap: 6px; font-size: .85rem; }
+@media (min-width: 900px) { .rodape__legal { grid-template-columns: 1fr auto; column-gap: 24px; } }
 
 /* ---------- Barra de compra fixa (celular) ---------- */
 .barra-compra {

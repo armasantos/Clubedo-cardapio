@@ -101,6 +101,16 @@
   });
   if (!numero) faltando.push('empresa.whatsapp');
 
+  /* ---------- Instagram: data-insta="empresa.instagram" ---------- */
+  document.querySelectorAll('[data-insta]').forEach(function (a) {
+    var user = (pega(a.getAttribute('data-insta')) || '').replace(/^@/, '');
+    if (!user) { a.closest('li') ? a.closest('li').hidden = true : a.hidden = true; return; }
+    a.href = 'https://www.instagram.com/' + user + '/';
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.textContent = '@' + user;
+  });
+
   /* ---------- ano no rodapé ---------- */
   document.querySelectorAll('[data-ano]').forEach(function (el) { el.textContent = new Date().getFullYear(); });
 

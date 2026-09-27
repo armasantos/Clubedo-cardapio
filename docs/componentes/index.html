@@ -147,7 +147,7 @@
     </section>
 
     <div class="rotulo-demo">RITA · credencial e assinatura</div>
-    <section class="secao secao--branco">
+    <section class="secao secao--branco" id="sobre">
       <div class="container rita">
         <div class="rita__foto"><img src="../../assets/brand/simbolo-ilustrado.svg" alt="" style="object-fit:contain;padding:12%"></div>
         <div>
@@ -205,31 +205,48 @@
   <!-- RODAPÉ -->
   <footer class="rodape">
     <div class="container">
+      <div class="rodape__marca">
+        <a class="rodape__logo" href="#"><img src="../../assets/brand/logo-horizontal-negativo.svg" alt="Clube do Cardápio" width="200" height="60"></a>
+        <p>Organize sua alimentação com praticidade.</p>
+      </div>
       <div class="rodape__grade">
-        <div>
-          <a class="rodape__logo" href="#"><img src="../../assets/brand/logo-horizontal-negativo.svg" alt="Clube do Cardápio" width="200" height="60"></a>
-          <p>Cardápios semanais, receitas e lista de compras para organizar a alimentação com praticidade.</p>
-        </div>
+        <nav aria-label="Cardápios">
+          <h4>Cardápios</h4>
+          <ul>
+            <li><a href="#">Para Idosos</a></li>
+            <li><a href="#">Para Famílias</a></li>
+            <li><a href="#">Para quem leva Marmita</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Clube do Cardápio">
+          <h4>Clube do Cardápio</h4>
+          <ul>
+            <li><a href="#como-funciona">Como Funciona</a></li>
+            <li><a href="#sobre">Sobre Rita</a></li>
+            <li><a href="#duvidas">Perguntas Frequentes</a></li>
+            <li><a href="#" data-insta="empresa.instagram">@clubedocardapio</a></li>
+          </ul>
+        </nav>
         <div>
           <h4>Contato</h4>
           <ul>
+            <li><a href="#" data-whats="Olá! Tenho uma dúvida sobre o Clube do Cardápio." data-whats-origem="rodape">WhatsApp: <span data-cc="empresa.whatsappExibicao"></span></a></li>
             <li><a href="mailto:contato@clubedocardapio.com.br" data-cc="empresa.email"></a></li>
-            <li><a href="#" data-whats="Olá! Tenho uma dúvida sobre o Clube do Cardápio." data-whats-origem="rodape">WhatsApp</a></li>
+            <li><a href="#" data-insta="rita.instagram">@ritamagalhaesnutricionista</a></li>
           </ul>
         </div>
-        <div>
-          <h4>Informações</h4>
+        <nav aria-label="Informações legais">
+          <h4>Informações Legais</h4>
           <ul>
             <li><a href="#">Termos de Uso</a></li>
             <li><a href="#">Política de Privacidade</a></li>
             <li><a href="#" data-cookies="abrir">Preferências de cookies</a></li>
           </ul>
-        </div>
+        </nav>
       </div>
       <div class="rodape__legal">
-        <span><span data-cc="empresa.razaoSocial"></span> · CNPJ <span data-cc="empresa.cnpj"></span></span>
-        <span>Responsável técnica: Rita Magalhães, nutricionista · <span data-cc="rita.crn"></span></span>
-        <span>© <span data-ano></span> Clube do Cardápio. Pagamentos processados pela Eduzz.</span>
+        <span><span data-cc="empresa.razaoSocial"></span> · CNPJ <span data-cc="empresa.cnpj"></span> · Responsável técnica: Rita Magalhães, nutricionista · <span data-cc="rita.crn"></span></span>
+        <span>© <span data-ano></span> Clube do Cardápio · Pagamentos processados pela Eduzz</span>
       </div>
     </div>
   </footer>
