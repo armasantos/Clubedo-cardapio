@@ -150,16 +150,24 @@
       </div>
     </section>
 
-    <div class="rotulo-demo">RITA · credencial e assinatura</div>
+    <div class="rotulo-demo">RITA · foto, credencial e mensagem</div>
     <section class="secao secao--branco" id="sobre">
       <div class="container rita">
-        <div class="rita__foto"><img src="../../assets/brand/simbolo-ilustrado.svg" alt="" style="object-fit:contain;padding:12%"></div>
+        <figure class="rita__foto">
+          <picture>
+            <source srcset="../../images/rita/rita-magalhaes-480.webp 480w, ../../images/rita/rita-magalhaes.webp 850w" sizes="(min-width: 860px) 460px, 90vw" type="image/webp">
+            <img src="../../images/rita/rita-magalhaes.jpg" alt="Rita Magalhães, nutricionista, sorrindo, de camisa branca e braços cruzados" width="850" height="1276" loading="lazy">
+          </picture>
+          <img class="rita__selo" src="../../assets/brand/simbolo.svg" alt="" width="96" height="96">
+        </figure>
         <div>
           <span class="chamada">Quem prepara os cardápios</span>
           <h2>Rita Magalhães</h2>
-          <span class="rita__credencial">Nutricionista · <span data-cc="rita.crn"></span></span>
-          <p class="lead">[Texto de apresentação da Rita]</p>
-          <p class="manuscrito" style="margin-top:18px">por Rita Magalhães</p>
+          <span class="rita__credencial">Nutricionista<span class="rita__crn" data-cc="rita.crn" data-cc-opcional></span></span>
+          <blockquote class="rita__mensagem">
+            <p>Eu sei que, na correria do dia a dia, decidir o que comer, organizar as compras e preparar as refeições pode ser cansativo. Por isso, criei o Clube do Cardápio: para ajudar você a transformar essa rotina em algo mais simples, prático e tranquilo, tornando o momento de comer mais leve e prazeroso.</p>
+          </blockquote>
+          <p class="manuscrito rita__assinatura">Rita Magalhães</p>
         </div>
       </div>
     </section>

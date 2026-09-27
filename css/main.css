@@ -340,9 +340,17 @@ p { text-wrap: pretty; }
 /* ---------- Rita ---------- */
 .rita { display: grid; gap: 28px; align-items: center; }
 @media (min-width: 860px) { .rita { grid-template-columns: .9fr 1.1fr; gap: 56px; } }
-.rita__foto { position: relative; border-radius: var(--r-lg); overflow: hidden; aspect-ratio: 4 / 5; background: var(--sol-claro); }
-.rita__foto img { width: 100%; height: 100%; object-fit: cover; }
-.rita__credencial { display: inline-flex; align-items: center; gap: 8px; background: #E4F2F8; color: var(--azul-texto); font-weight: 800; padding: 8px 16px; border-radius: var(--r-pill); margin: 8px 0 18px; }
+.rita__foto { position: relative; max-width: 460px; width: calc(100% - 14px); margin: 0 auto 14px 0; }
+@media (min-width: 860px) { .rita__foto { width: 100%; margin: 0 auto 14px; } }
+.rita__foto::before { content: ""; position: absolute; inset: 18px -14px -14px 18px; background: var(--sol); border-radius: var(--r-lg); }
+.rita__foto picture, .rita__foto picture img { position: relative; display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 20%; border-radius: var(--r-lg); }
+.rita__selo { position: absolute; right: -8px; top: -14px; width: 84px; height: 84px; border-radius: 50%; background: var(--branco); box-shadow: var(--sombra-md); padding: 6px; }
+@media (min-width: 860px) { .rita__selo { width: 96px; height: 96px; right: -24px; } }
+.rita__mensagem { position: relative; margin-top: 30px; font-size: var(--fs-lg); line-height: 1.6; color: var(--cafe); padding-left: 22px; border-left: 4px solid var(--sol); }
+.rita__mensagem::before { content: "“"; position: absolute; left: 14px; top: -34px; font: 800 4rem/1 var(--f-titulo); color: var(--sol); }
+.rita__assinatura { margin-top: 18px; color: var(--folha); font-size: 2.1rem; }
+.rita__crn:not(:empty)::before { content: " · "; }
+.rita__credencial { display: inline-flex; align-items: center; gap: 0; background: #E4F2F8; color: var(--azul-texto); font-weight: 800; padding: 8px 16px; border-radius: var(--r-pill); margin: 8px 0 18px; }
 
 /* ---------- Garantia / aviso ---------- */
 .garantia { display: flex; gap: 18px; align-items: center; background: var(--branco); border: 2px dashed var(--folha); border-radius: var(--r-lg); padding: 22px 24px; }
