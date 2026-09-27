@@ -269,14 +269,28 @@ p { text-wrap: pretty; }
 .passo h3 { font-size: 1.25rem; margin-bottom: 6px; }
 .passo p { color: var(--cafe-suave); font-size: var(--fs-sm); }
 
-/* Cardápio de exemplo (um dia) */
-.dia-exemplo { display: grid; gap: 14px; }
-@media (min-width: 700px) { .dia-exemplo { grid-template-columns: repeat(3, 1fr); } }
-.refeicao { background: var(--branco); border-radius: var(--r-lg); overflow: hidden; box-shadow: var(--sombra-sm); }
-.refeicao img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
-.refeicao div { padding: 16px 18px 20px; }
-.refeicao b { display: block; font-size: .8rem; letter-spacing: .16em; text-transform: uppercase; color: var(--publico-texto); }
-.refeicao span { font-weight: 700; }
+/* O que você vai receber */
+.recebe__titulo { position: relative; max-width: 860px; margin: 0 auto; text-align: center; text-transform: uppercase; font-size: clamp(1.7rem, 1.2rem + 2.4vw, 2.8rem); line-height: 1.1; padding-inline: 44px; }
+.recebe__titulo .destaque { display: block; color: var(--tomate-texto); }
+.recebe__risco { position: absolute; top: 50%; width: 34px; height: 60px; transform: translateY(-50%); }
+.recebe__risco::before, .recebe__risco::after { content: ""; position: absolute; left: 0; width: 30px; height: 7px; border-radius: 7px; }
+.recebe__risco::before { top: 8px; background: var(--folha); }
+.recebe__risco::after { bottom: 8px; background: var(--folha); }
+.recebe__risco--esq { left: 0; background: linear-gradient(var(--cenoura), var(--cenoura)) 0 50% / 30px 7px no-repeat; border-radius: 7px; }
+.recebe__risco--esq::before { transform: rotate(28deg); } .recebe__risco--esq::after { transform: rotate(-28deg); }
+.recebe__risco--dir { right: 0; background: linear-gradient(var(--cenoura), var(--cenoura)) 100% 50% / 30px 7px no-repeat; }
+.recebe__risco--dir::before { left: auto; right: 0; transform: rotate(-28deg); } .recebe__risco--dir::after { left: auto; right: 0; transform: rotate(28deg); }
+.recebe__imagem { display: block; max-width: 1100px; margin: clamp(20px, 4vw, 40px) auto clamp(24px, 4vw, 44px); }
+.recebe__imagem img { width: 100%; }
+.recebe__itens { display: grid; gap: 32px; max-width: 1040px; margin-inline: auto; }
+@media (min-width: 800px) { .recebe__itens { grid-template-columns: repeat(3, 1fr); gap: 40px; } }
+.recebe__item { text-align: center; }
+.recebe__item h3 { font-size: 1.3rem; margin-bottom: 8px; }
+.recebe__item p { color: var(--cafe-suave); max-width: 320px; margin-inline: auto; }
+.recebe__icone { display: inline-grid; place-items: center; width: 68px; height: 68px; border-radius: 50%; margin-bottom: 14px; }
+.recebe__icone svg { width: 32px; height: 32px; }
+.recebe__icone--tomate { background: #FCE0D6; color: var(--tomate-texto); }
+.recebe__icone--folha { background: var(--folha-claro); color: var(--folha); }
 
 /* ---------- Seletor de público (abas) ---------- */
 .abas { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-bottom: 28px; }
