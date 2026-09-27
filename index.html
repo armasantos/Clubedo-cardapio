@@ -446,6 +446,10 @@
               </li>
               <li class="product__feature">
                 <svg class="product__feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+                <span>Orientações de uso e organização do material</span>
+              </li>
+              <li class="product__feature">
+                <svg class="product__feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
                 <span>Entrega digital imediata</span>
               </li>
             </ul>
@@ -567,7 +571,7 @@
             <h2 class="about__title">Rita Magalhães</h2>
             <p class="about__role">Nutricionista</p>
             <p class="about__desc">
-              Rita é a responsável por todo o planejamento alimentar do Clube do Cardápio. Cada cardápio, receita e lista de composição é elaborado com atenção, cuidado e conhecimento técnico, para oferecer uma experiência prática e confiável.
+              Rita é a responsável por todo o planejamento alimentar do Clube do Cardápio. Cada cardápio, receita e lista de compras é elaborado com atenção, cuidado e conhecimento técnico, para oferecer uma experiência prática e confiável.
             </p>
             <p class="about__desc">
               O objetivo é simples: ajudar você a organizar sua alimentação de forma clara, sem complicação e com mais autonomia no dia a dia.
@@ -591,6 +595,9 @@
         <div class="section-header">
           <span class="section-tag">Escolha sua opção</span>
           <h2 class="section-title">Qual cardápio faz<br><span class="text-accent">mais sentido para você?</span></h2>
+          <p class="section-desc">
+            Tanto o cardápio de 7 dias quanto a assinatura de 30 dias estão disponíveis para os três perfis: Idosos, Famílias e quem leva Marmita.
+          </p>
         </div>
         <div class="offer__grid">
           <!-- 7 DIAS -->
@@ -609,6 +616,12 @@
                 <li>PDF digital para baixar</li>
                 <li>Entrega imediata</li>
               </ul>
+              <p class="offer__available-label">Disponível para:</p>
+              <div class="offer__available">
+                <a href="/idosos/">Idosos</a>
+                <a href="/familias/">Famílias</a>
+                <a href="/marmita/">Marmita</a>
+              </div>
               <a href="#" class="btn btn--outline btn--full offer__card-btn" data-product="7dias">
                 Conhecer este cardápio
                 <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
@@ -633,6 +646,12 @@
                 <li>PDF digital para baixar</li>
                 <li>Continuidade e organização mensal</li>
               </ul>
+              <p class="offer__available-label">Disponível para:</p>
+              <div class="offer__available">
+                <a href="/idosos/">Idosos</a>
+                <a href="/familias/">Famílias</a>
+                <a href="/marmita/">Marmita</a>
+              </div>
               <a href="#" class="btn btn--primary btn--full offer__card-btn" data-product="30dias">
                 Conhecer este cardápio
                 <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
@@ -725,6 +744,16 @@
 
           <details class="faq__item" data-animate>
             <summary class="faq__question">
+              <span>Como funciona a renovação e o cancelamento da assinatura de 30 dias?</span>
+              <svg class="faq__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+            </summary>
+            <div class="faq__answer">
+              <p>As regras de renovação e cancelamento da assinatura seguem as condições da plataforma de pagamento (Eduzz), que serão informadas na página de compra antes da confirmação.</p>
+            </div>
+          </details>
+
+          <details class="faq__item" data-animate>
+            <summary class="faq__question">
               <span>Qual a diferença entre 7 e 30 dias?</span>
               <svg class="faq__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
             </summary>
@@ -809,14 +838,29 @@
             <li><a href="#como-funciona">Como Funciona</a></li>
             <li><a href="#sobre">Sobre Rita</a></li>
             <li><a href="#faq">Perguntas Frequentes</a></li>
-          </ul>
-        </div>
-        <div class="footer__col">
-          <h4 class="footer__col-title">Redes Sociais</h4>
-          <ul>
             <li>
               <a href="https://instagram.com/clubedocardapio" target="_blank" rel="noopener noreferrer" aria-label="Instagram do Clube do Cardápio">
                 @clubedocardapio
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Contato</h4>
+          <ul>
+            <li>
+              <a href="https://wa.me/5511986276303" target="_blank" rel="noopener noreferrer">
+                WhatsApp: (11) 98627-6303
+              </a>
+            </li>
+            <li>
+              <a href="https://www.ritamagalhaes.com.br" target="_blank" rel="noopener noreferrer">
+                www.ritamagalhaes.com.br
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-label="Endereço da nutricionista">
+                Rua Zacarias de Góis, 1317 — Campo Belo, São Paulo/SP
               </a>
             </li>
             <li>
@@ -826,10 +870,17 @@
             </li>
           </ul>
         </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Informações Legais</h4>
+          <ul>
+            <li><a href="/termos-de-uso/">Termos de Uso</a></li>
+            <li><a href="/politica-de-privacidade/">Política de Privacidade</a></li>
+          </ul>
+        </div>
       </div>
       <div class="footer__bottom">
         <p>&copy; 2026 Clube do Cardápio. Todos os direitos reservados.</p>
-        <p>Desenvolvido com cuidado por <a href="https://www.clubedocardapio.com.br" target="_blank" rel="noopener noreferrer">Clube do Cardápio</a>.</p>
+        <p>Conteúdo de organização e planejamento alimentar — não substitui acompanhamento profissional individualizado.</p>
       </div>
     </div>
   </footer>

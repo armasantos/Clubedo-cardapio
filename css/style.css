@@ -1184,6 +1184,37 @@ button {
   font-weight: 700;
 }
 
+.offer__available-label {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  margin: 8px 0 10px;
+}
+
+.offer__available {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.offer__available a {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  background-color: rgba(61, 90, 62, 0.08);
+  padding: 6px 14px;
+  border-radius: 100px;
+  transition: all var(--transition);
+}
+
+.offer__available a:hover {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
 /* ============================================
    FAQ
    ============================================ */
@@ -1347,7 +1378,7 @@ button {
 
 .footer__links {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 32px;
 }
 
@@ -1485,6 +1516,10 @@ button {
   .offer__grid {
     grid-template-columns: 1fr;
     max-width: 500px;
+  }
+
+  .footer__links {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
