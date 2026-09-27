@@ -16,9 +16,9 @@ window.CC_CONFIG = {
 
   /* ---- Empresa e contato (rodapé, termos, política) ---- */
   empresa: {
-    razaoSocial: "",           // ex.: "BESILVA LTDA"
-    cnpj: "",                  // ex.: "00.000.000/0001-00"
-    endereco: "",              // endereço da empresa, ex.: "Rua X, 100 - Bairro, Cidade - UF, CEP 00000-000"
+    razaoSocial: "BESILVA COMERCIO DE PRODUTOS E UTENSILIOS LTDA - EPP",
+    cnpj: "29.164.635/0001-06",
+    endereco: "Avenida Paulista, 1636, Sala 1105/2751 - Bela Vista, São Paulo - SP, CEP 01310-200",
     email: "contato@clubedocardapio.com.br",
     whatsapp: "5511986276303", // só números com DDI e DDD
     whatsappExibicao: "(11) 98627-6303",
