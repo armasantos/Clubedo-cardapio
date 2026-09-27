@@ -41,8 +41,8 @@ window.CC_CONFIG = {
     "idosos-30":   { nome: "Assinatura de Cardápio Digital de 30 Dias · Para Idosos",        checkout: "", preco: "", precoDe: "", parcelas: "" },
     "familias-7":  { nome: "Cardápio Digital de 7 Dias · Para Famílias",                     checkout: "", preco: "", precoDe: "", parcelas: "" },
     "familias-30": { nome: "Assinatura de Cardápio Digital de 30 Dias · Para Famílias",      checkout: "", preco: "", precoDe: "", parcelas: "" },
-    "marmita-7":   { nome: "Cardápio Digital de 7 Dias · Para quem leva marmita",            checkout: "", preco: "", precoDe: "", parcelas: "" },
-    "marmita-30":  { nome: "Assinatura de Cardápio Digital de 30 Dias · Para quem leva marmita", checkout: "", preco: "", precoDe: "", parcelas: "" },
+    "voce-7":      { nome: "Cardápio Digital de 7 Dias · Para Você",                         checkout: "", preco: "", precoDe: "", parcelas: "" },
+    "voce-30":     { nome: "Assinatura de Cardápio Digital de 30 Dias · Para Você", checkout: "", preco: "", precoDe: "", parcelas: "" },
   },
 
   /* ---- Condições da assinatura de 30 dias (FAQ e oferta) ---- */

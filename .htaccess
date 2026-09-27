@@ -1,0 +1,4 @@
+# Clube do Cardápio: regras do servidor (HostGator / Apache)
+
+# Página "Marmita" passou a se chamar "Para Você" (mantém UTMs e links antigos)
+RedirectMatch 301 ^/marmita/?$ /para-voce/

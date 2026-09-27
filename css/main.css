@@ -90,7 +90,7 @@
 /* Tema por público */
 .publico-idosos   { --publico: var(--azul);   --publico-texto: var(--azul-texto);   --publico-fundo: #E4F2F8; }
 .publico-familias { --publico: var(--tomate); --publico-texto: var(--tomate-texto); --publico-fundo: #FCE7E3; }
-.publico-marmita  { --publico: var(--folha);  --publico-texto: var(--folha);        --publico-fundo: var(--folha-claro); }
+.publico-voce     { --publico: var(--folha);  --publico-texto: var(--folha);        --publico-fundo: var(--folha-claro); }
 
 /* Página de Idosos: leitura ampliada */
 .leitura-ampliada {
