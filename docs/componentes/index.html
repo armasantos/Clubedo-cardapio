@@ -50,6 +50,48 @@
       <img class="hero__faixa hero__faixa--base" src="../../images/hero/hero-mobile-bottom.webp" alt="" width="1080" height="489">
     </section>
 
+    <div class="rotulo-demo">OFERTA · logo após o HERO: seletor de público + 7 dias (entrada) e 30 dias (continuidade)</div>
+    <section class="secao" id="oferta">
+      <div class="container">
+        <div class="cabecalho-secao"><span class="chamada">Escolha e comece hoje</span><h2>Para quem é o cardápio?</h2></div>
+
+        <div class="abas" role="tablist" aria-label="Escolha o público">
+          <button class="aba publico-idosos" role="tab" id="aba-idosos" aria-controls="painel-idosos" aria-selected="false" tabindex="-1" data-publico="idosos"><span class="aba__ponto"></span>Idosos</button>
+          <button class="aba publico-familias" role="tab" id="aba-familias" aria-controls="painel-familias" aria-selected="true" tabindex="0" data-publico="familias"><span class="aba__ponto"></span>Famílias</button>
+          <button class="aba publico-marmita" role="tab" id="aba-marmita" aria-controls="painel-marmita" aria-selected="false" tabindex="-1" data-publico="marmita"><span class="aba__ponto"></span>Marmita</button>
+        </div>
+
+        <div class="painel" role="tabpanel" id="painel-familias" aria-labelledby="aba-familias">
+          <div class="ofertas">
+            <article class="oferta">
+              <span class="oferta__etapa">Para começar</span>
+              <h3>Cardápio de 7 Dias</h3>
+              <p class="oferta__resumo">Experimente uma semana inteira planejada para a família.</p>
+              <ul class="lista-check"><li>Cardápio de 7 dias</li><li>Receitas passo a passo</li><li>Lista de compras da semana</li><li>Orientações de uso</li></ul>
+              <div class="oferta__rodape">
+                <div class="preco"><span class="preco__de" data-preco-de="familias-7"></span><span class="preco__valor" data-preco="familias-7"></span><span class="preco__parcelas" data-parcelas="familias-7"></span></div>
+                <a class="btn btn--secundario btn--bloco" data-checkout="familias-7" href="#">Quero o de 7 dias</a>
+              </div>
+            </article>
+            <article class="oferta oferta--destaque">
+              <span class="oferta__fita">Continuidade do mês</span>
+              <span class="oferta__etapa">Para manter a rotina</span>
+              <h3>Assinatura de 30 Dias</h3>
+              <p class="oferta__resumo">4 semanas de cardápio, entregues uma por semana.</p>
+              <ul class="lista-check"><li>4 cardápios semanais</li><li>Receitas passo a passo</li><li>Lista de compras de cada semana</li><li>Orientações de uso</li></ul>
+              <div class="oferta__rodape">
+                <div class="preco"><span class="preco__de" data-preco-de="familias-30"></span><span class="preco__valor" data-preco="familias-30"></span><span class="preco__parcelas" data-parcelas="familias-30"></span></div>
+                <a class="btn btn--primario btn--bloco btn--grande" data-checkout="familias-30" href="#">Quero a assinatura</a>
+                <p class="oferta__condicoes"><span data-cc="assinatura.renovacao"></span> <span data-cc="assinatura.cancelamento"></span></p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="painel" role="tabpanel" id="painel-idosos" aria-labelledby="aba-idosos" hidden><p style="text-align:center">(mesma estrutura, produtos de Idosos)</p></div>
+        <div class="painel" role="tabpanel" id="painel-marmita" aria-labelledby="aba-marmita" hidden><p style="text-align:center">(mesma estrutura, produtos de Marmita)</p></div>
+      </div>
+    </section>
+
     <div class="rotulo-demo">DOR · cartões com a cor do público</div>
     <section class="secao publico-familias">
       <div class="container">
@@ -89,48 +131,6 @@
           <article class="refeicao"><img src="../../images/pratos/j-ter-torrada-abacate.jpg" alt="Torrada integral com abacate" loading="lazy" width="480" height="480"><div><b>Lanche</b><span>Torrada integral com abacate</span></div></article>
           <article class="refeicao"><img src="../../images/pratos/sex-quinoa-legumes.jpg" alt="Quinoa com legumes assados" loading="lazy" width="480" height="480"><div><b>Jantar</b><span>Quinoa com legumes assados</span></div></article>
         </div>
-      </div>
-    </section>
-
-    <div class="rotulo-demo">OFERTA · seletor de público + 7 dias (entrada) e 30 dias (continuidade)</div>
-    <section class="secao" id="oferta">
-      <div class="container">
-        <div class="cabecalho-secao"><span class="chamada">Escolha e comece hoje</span><h2>Para quem é o cardápio?</h2></div>
-
-        <div class="abas" role="tablist" aria-label="Escolha o público">
-          <button class="aba publico-idosos" role="tab" id="aba-idosos" aria-controls="painel-idosos" aria-selected="false" tabindex="-1" data-publico="idosos"><span class="aba__ponto"></span>Idosos</button>
-          <button class="aba publico-familias" role="tab" id="aba-familias" aria-controls="painel-familias" aria-selected="true" tabindex="0" data-publico="familias"><span class="aba__ponto"></span>Famílias</button>
-          <button class="aba publico-marmita" role="tab" id="aba-marmita" aria-controls="painel-marmita" aria-selected="false" tabindex="-1" data-publico="marmita"><span class="aba__ponto"></span>Marmita</button>
-        </div>
-
-        <div class="painel" role="tabpanel" id="painel-familias" aria-labelledby="aba-familias">
-          <div class="ofertas">
-            <article class="oferta">
-              <span class="oferta__etapa">Para começar</span>
-              <h3>Cardápio de 7 Dias</h3>
-              <p class="oferta__resumo">Experimente uma semana inteira planejada para a família.</p>
-              <ul class="lista-check"><li>Cardápio de 7 dias</li><li>Receitas passo a passo</li><li>Lista de compras da semana</li><li>Orientações de uso</li></ul>
-              <div class="oferta__rodape">
-                <div class="preco"><span class="preco__de" data-preco-de="familias-7"></span><span class="preco__valor" data-preco="familias-7"></span><span class="preco__parcelas" data-parcelas="familias-7"></span></div>
-                <a class="btn btn--secundario btn--bloco" data-checkout="familias-7" href="#">Quero o de 7 dias</a>
-              </div>
-            </article>
-            <article class="oferta oferta--destaque">
-              <span class="oferta__fita">Continuidade do mês</span>
-              <span class="oferta__etapa">Para manter a rotina</span>
-              <h3>Assinatura de 30 Dias</h3>
-              <p class="oferta__resumo">4 semanas de cardápio, entregues uma por semana.</p>
-              <ul class="lista-check"><li>4 cardápios semanais</li><li>Receitas passo a passo</li><li>Lista de compras de cada semana</li><li>Orientações de uso</li></ul>
-              <div class="oferta__rodape">
-                <div class="preco"><span class="preco__de" data-preco-de="familias-30"></span><span class="preco__valor" data-preco="familias-30"></span><span class="preco__parcelas" data-parcelas="familias-30"></span></div>
-                <a class="btn btn--primario btn--bloco btn--grande" data-checkout="familias-30" href="#">Quero a assinatura</a>
-                <p class="oferta__condicoes"><span data-cc="assinatura.renovacao"></span> <span data-cc="assinatura.cancelamento"></span></p>
-              </div>
-            </article>
-          </div>
-        </div>
-        <div class="painel" role="tabpanel" id="painel-idosos" aria-labelledby="aba-idosos" hidden><p style="text-align:center">(mesma estrutura, produtos de Idosos)</p></div>
-        <div class="painel" role="tabpanel" id="painel-marmita" aria-labelledby="aba-marmita" hidden><p style="text-align:center">(mesma estrutura, produtos de Marmita)</p></div>
       </div>
     </section>
 
