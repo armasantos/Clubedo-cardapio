@@ -366,8 +366,8 @@ p { text-wrap: pretty; }
 @media (min-width: 900px) { .rodape__grade { grid-template-columns: repeat(4, 1fr); } }
 .rodape h4 { font: 800 1.2rem/1.2 var(--f-titulo); color: var(--creme); margin-bottom: 18px; }
 .rodape ul { list-style: none; padding: 0; display: grid; gap: 12px; }
-.rodape__legal { border-top: 1px solid rgba(233, 220, 203, .2); margin-top: 48px; padding-top: 22px; display: grid; gap: 6px; font-size: .85rem; }
-@media (min-width: 900px) { .rodape__legal { grid-template-columns: 1fr auto; column-gap: 24px; } }
+.rodape__legal { border-top: 1px solid rgba(233, 220, 203, .2); margin-top: 48px; padding-top: 24px; display: grid; gap: 6px; text-align: center; font-size: .92rem; }
+.rodape__legal strong { color: var(--creme); font-weight: 800; }
 
 /* ---------- Barra de compra fixa (celular) ---------- */
 .barra-compra {

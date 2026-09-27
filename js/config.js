@@ -18,6 +18,7 @@ window.CC_CONFIG = {
   empresa: {
     razaoSocial: "",           // ex.: "BESILVA LTDA"
     cnpj: "",                  // ex.: "00.000.000/0001-00"
+    endereco: "",              // endereço da empresa, ex.: "Rua X, 100 - Bairro, Cidade - UF, CEP 00000-000"
     email: "contato@clubedocardapio.com.br",
     whatsapp: "5511986276303", // só números com DDI e DDD
     whatsappExibicao: "(11) 98627-6303",
@@ -28,7 +29,6 @@ window.CC_CONFIG = {
   rita: {
     nome: "Rita Magalhães",
     crn: "",                   // ex.: "CRN-3 00000"
-    instagram: "ritamagalhaesnutricionista", // sem @
   },
 
   /* ---- Produtos (links de checkout da Eduzz e preços) ----
