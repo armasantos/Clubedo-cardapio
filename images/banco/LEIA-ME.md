@@ -1,11 +1,21 @@
 # Banco de fotos (Unsplash, enviadas pela equipe)
 
-Fotos guardadas para uso nas páginas de vendas (licença Unsplash: uso comercial livre).
+Todas as fotos recebidas como arquivo, em até 1600 px, guardadas para uso no site
+(licença Unsplash: uso comercial livre, sem necessidade de crédito).
+Os recortes quadrados usados no tablet do HERO ficam em `images/pratos/`.
 
+## Pessoas (páginas de vendas)
 | Arquivo | Uso previsto |
 |---|---|
-| `idosa-preparando-salada.jpg` | /idosos: HERO ou seção de solução |
-| `casal-idoso-cozinhando.jpg` | /idosos: seção "para quem cuida" / benefícios |
-| `cafe-ovos-panquecas-suco.jpg` | Exemplo de café da manhã (Famílias) |
-| `cafe-torrada-ovo-tomate.jpg` | Exemplo de café da manhã (Idosos) |
-| `cafe-torrada-ovo-abacate.jpg` | Exemplo de café da manhã (Marmita) |
+| `idosa-preparando-salada.jpg` | /idosos: topo ou seção de solução |
+| `casal-idoso-cozinhando.jpg` | /idosos: seção "para quem cuida" |
+
+## Café da manhã
+`cafe-ovos-panquecas-suco`, `cafe-torrada-ovo-tomate`, `cafe-torrada-ovo-abacate`,
+`cafe-torradas-abacate-suco`, `cafe-torrada-ovo-poche`, `cafe-torradas-abacate-queijo`,
+`cafe-panquecas-frutas`, `iogurte-morangos`, `torrada-ovo`, `ovos-queijo-frutas`,
+`torradas-abacate-e-tomate`
+
+## Almoço e jantar
+`cuscuz-salada-couve`, `almondegas-rucula`, `bowl-salmao`, `prato-ovo-abacate`,
+`salada-verde-torradinhas`, `sanduiche-carne-queijo`, `mesa-pratos-variados`
