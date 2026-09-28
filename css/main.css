@@ -389,7 +389,7 @@ p { text-wrap: pretty; }
 .faq details > div { padding: 0 22px 20px; color: var(--cafe-suave); }
 
 /* ---------- Rodapé ---------- */
-.rodape { background: #F3ECE1; color: var(--cafe-suave); border-top: 1px solid var(--linha); padding: 64px 0 110px; font-size: var(--fs-sm); }
+.rodape { background: var(--folha-claro); color: var(--cafe-suave); border-top: 1px solid #CFE3D4; padding: 64px 0 110px; font-size: var(--fs-sm); }
 @media (min-width: 900px) { .rodape { padding-bottom: 40px; } }
 .rodape a { color: var(--cafe); text-decoration: none; transition: color var(--t); }
 .rodape a:hover { color: var(--folha); }
@@ -403,7 +403,7 @@ p { text-wrap: pretty; }
 @media (min-width: 900px) { .rodape__grade { grid-template-columns: repeat(4, 1fr); } }
 .rodape h4 { font: 800 1.2rem/1.2 var(--f-titulo); color: var(--cafe); margin-bottom: 18px; }
 .rodape ul { list-style: none; padding: 0; display: grid; gap: 12px; }
-.rodape__legal { border-top: 1px solid var(--linha); margin-top: 48px; padding-top: 24px; display: grid; gap: 6px; text-align: center; font-size: .92rem; }
+.rodape__legal { border-top: 1px solid #C5DCCB; margin-top: 48px; padding-top: 24px; display: grid; gap: 6px; text-align: center; font-size: .92rem; }
 .rodape__legal strong { color: var(--cafe); font-weight: 800; }
 
 /* ---------- Barra de compra fixa (celular) ---------- */
