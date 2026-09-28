@@ -504,3 +504,15 @@ body.tem-cookies .barra-compra, body.tem-cookies .whats-flutuante { visibility: 
 .beneficios__icone svg { width: 26px; height: 26px; }
 .beneficios h3 { font-size: 1.2rem; margin-bottom: 4px; }
 .beneficios p { color: var(--cafe-suave); }
+
+/* ---------- Páginas legais ---------- */
+.legal h1 { font-size: clamp(2rem, 1.5rem + 2vw, 2.8rem); margin-bottom: 8px; }
+.legal__data { color: var(--cafe-suave); font-size: var(--fs-sm); margin-bottom: 28px; }
+.legal h2 { font-size: 1.35rem; margin: 34px 0 10px; }
+.legal p, .legal li { color: var(--cafe); margin-bottom: 12px; }
+.legal ul { padding-left: 22px; margin-bottom: 12px; }
+.legal li { margin-bottom: 6px; }
+.legal table { width: 100%; border-collapse: collapse; margin: 8px 0 18px; font-size: .95rem; background: var(--branco); border-radius: var(--r-md); overflow: hidden; box-shadow: var(--sombra-sm); display: block; overflow-x: auto; }
+.legal th, .legal td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--linha); min-width: 140px; }
+.legal th { background: var(--folha-claro); color: var(--cafe); font-weight: 800; }
+.legal code { background: var(--folha-claro); padding: 1px 6px; border-radius: 6px; font-size: .9em; }
