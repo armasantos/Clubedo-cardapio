@@ -37,12 +37,12 @@ window.CC_CONFIG = {
      parcelas: texto opcional, ex.: "ou 3x de R$ 9,90"
   */
   produtos: {
-    "idosos-7":    { nome: "Cardápio Digital de 7 Dias · Para Idosos",                       checkout: "", preco: "", precoDe: "", parcelas: "" },
-    "idosos-30":   { nome: "Assinatura de Cardápio Digital de 30 Dias · Para Idosos",        checkout: "", preco: "", precoDe: "", parcelas: "" },
-    "familias-7":  { nome: "Cardápio Digital de 7 Dias · Para Famílias",                     checkout: "", preco: "", precoDe: "", parcelas: "" },
-    "familias-30": { nome: "Assinatura de Cardápio Digital de 30 Dias · Para Famílias",      checkout: "", preco: "", precoDe: "", parcelas: "" },
-    "voce-7":      { nome: "Cardápio Digital de 7 Dias · Para Você",                         checkout: "", preco: "", precoDe: "", parcelas: "" },
-    "voce-30":     { nome: "Assinatura de Cardápio Digital de 30 Dias · Para Você", checkout: "", preco: "", precoDe: "", parcelas: "" },
+    "idosos-7":    { nome: "Cardápio Digital de 7 Dias · Para Idosos",                       checkout: "", preco: "R$ 19,90", precoDe: "", parcelas: "Menos de R$ 3 por dia" },
+    "idosos-30":   { nome: "Assinatura de Cardápio Digital de 30 Dias · Para Idosos",        checkout: "", preco: "R$ 49,90", precoDe: "", parcelas: "por mês · menos de R$ 12,50 por semana" },
+    "familias-7":  { nome: "Cardápio Digital de 7 Dias · Para Famílias",                     checkout: "", preco: "R$ 19,90", precoDe: "", parcelas: "Menos de R$ 3 por dia" },
+    "familias-30": { nome: "Assinatura de Cardápio Digital de 30 Dias · Para Famílias",      checkout: "", preco: "R$ 49,90", precoDe: "", parcelas: "por mês · menos de R$ 12,50 por semana" },
+    "voce-7":      { nome: "Cardápio Digital de 7 Dias · Para Você",                         checkout: "", preco: "R$ 19,90", precoDe: "", parcelas: "Menos de R$ 3 por dia" },
+    "voce-30":     { nome: "Assinatura de Cardápio Digital de 30 Dias · Para Você", checkout: "", preco: "R$ 49,90", precoDe: "", parcelas: "por mês · menos de R$ 12,50 por semana" },
   },
 
   /* ---- Condições da assinatura de 30 dias (FAQ e oferta) ---- */
