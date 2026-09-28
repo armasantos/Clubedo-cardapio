@@ -11,9 +11,11 @@ Os recortes quadrados usados no tablet do HERO ficam em `images/pratos/`.
 | `casal-idoso-cozinhando.jpg` | /idosos: seção "para quem cuida" |
 | `familia-mesa-cafe.jpg` | /familias e arte Eduzz Famílias 7 dias |
 | `familia-cozinhando.jpg` | /familias e arte Eduzz Famílias 30 dias |
-| `mulher-saboreando-refeicao.jpg` | /para-voce e arte Eduzz Para Você 7 dias |
-| `mulher-sorrindo-refeicao.jpg` | /para-voce e arte Eduzz Para Você 30 dias |
+| `mulher-saboreando-refeicao.jpg` | reserva (foto em restaurante) |
+| `mulher-sorrindo-refeicao.jpg` | reserva (foto em restaurante) |
 | `marmitas-recorte.jpg` | /para-voce: seção "prepare a semana" (recorte só das marmitas; não usar a foto original com o corpo) |
+| `mulher-preparando-marmita.jpg` | /para-voce (topo) e arte Eduzz Para Você 7 dias |
+| `mulher-comendo-marmita-fundo-verde.jpg` / `-fundo-creme.jpg` | Arte Eduzz Para Você 30 dias e /para-voce (fundo roxo original trocado pelas cores da marca) |
 
 ## Café da manhã
 `cafe-ovos-panquecas-suco`, `cafe-torrada-ovo-tomate`, `cafe-torrada-ovo-abacate`,
