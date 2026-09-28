@@ -175,7 +175,7 @@
 
   /* ---------- barra de compra fixa: aparece depois do HERO, some na oferta ---------- */
   var barra = document.querySelector('.barra-compra');
-  var hero = document.querySelector('.hero');
+  var hero = document.querySelector('.hero, .hv');
   var oferta = document.getElementById('oferta');
   if (barra && hero && 'IntersectionObserver' in window) {
     var heroVisivel = true, ofertaVisivel = false;

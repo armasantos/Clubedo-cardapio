@@ -473,3 +473,34 @@ body.tem-cookies .barra-compra, body.tem-cookies .whats-flutuante { visibility: 
 @media (min-width: 900px) { .hero__acoes { grid-auto-flow: row; } }
 @media (max-width: 420px) { .hero__cta { padding-inline: 22px; font-size: 1.08rem; } }
 @media (max-width: 370px) { .hero__cta { white-space: normal; max-width: 100%; } .hero__preco { white-space: nowrap; } }
+
+/* ---------- Página de vendas: HERO dividido ---------- */
+.hv { background: var(--publico-fundo); overflow: hidden; }
+.hv__grade { display: grid; gap: 26px; padding-block: 28px 44px; align-items: center; }
+.hv__foto { order: -1; margin-inline: calc(var(--gutter) * -1); }
+.hv__foto img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: 30% 50%; }
+.hv__texto { text-align: center; }
+.hv h1 { margin-bottom: 16px; }
+.hv .lead { color: var(--cafe); margin-bottom: 24px; }
+.hv__acoes { display: grid; justify-items: center; }
+.hv__selo { justify-content: center; }
+@media (min-width: 900px) {
+  .hv__grade { grid-template-columns: 1.05fr .95fr; gap: 56px; padding-block: 64px; }
+  .hv__foto { order: 0; margin: 0; }
+  .hv__foto img { aspect-ratio: 4 / 5; border-radius: var(--r-lg); box-shadow: var(--sombra-lg); }
+  .hv__texto { text-align: left; }
+  .hv__acoes { justify-items: start; }
+  .hv__selo { justify-content: flex-start; }
+}
+
+/* ---------- Página de vendas: solução ---------- */
+.solucao { display: grid; gap: 28px; align-items: center; }
+@media (min-width: 900px) { .solucao { grid-template-columns: 1fr 1fr; gap: 56px; } }
+.solucao__foto img { width: 100%; border-radius: var(--r-lg); aspect-ratio: 4 / 3; object-fit: cover; }
+.solucao h2 { margin-bottom: 24px; }
+.beneficios { list-style: none; padding: 0; display: grid; gap: 20px; }
+.beneficios li { display: flex; gap: 16px; align-items: flex-start; }
+.beneficios__icone { flex: none; width: 52px; height: 52px; border-radius: 50%; display: grid; place-items: center; background: var(--publico-fundo); color: var(--publico-texto); }
+.beneficios__icone svg { width: 26px; height: 26px; }
+.beneficios h3 { font-size: 1.2rem; margin-bottom: 4px; }
+.beneficios p { color: var(--cafe-suave); }
