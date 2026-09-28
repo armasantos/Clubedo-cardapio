@@ -51,6 +51,13 @@ window.CC_CONFIG = {
     cancelamento: "Cancele quando quiser pela área do cliente da Eduzz, sem multa.",
   },
 
+  /* ---- Depoimentos reais (aparecem na Home quando preenchidos) ----
+     Cada item: { texto: "...", nome: "Maria S.", cidade: "São Paulo/SP", publico: "Famílias" }
+     Use só depoimentos reais, com autorização por escrito de cada pessoa.
+  */
+  depoimentos: [
+  ],
+
   /* ---- Medição (só carrega depois que o visitante aceita cookies) ---- */
   medicao: {
     ga4: "",                   // ex.: "G-XXXXXXXXXX"

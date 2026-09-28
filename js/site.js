@@ -111,6 +111,31 @@
     a.textContent = '@' + user;
   });
 
+  /* ---------- depoimentos (config.depoimentos) ---------- */
+  var listaDep = document.querySelector('[data-depoimentos]');
+  var deps = (CFG.depoimentos || []).filter(function (d) { return d && d.texto; });
+  if (listaDep && deps.length) {
+    deps.forEach(function (d) {
+      var fig = document.createElement('figure');
+      fig.className = 'depoimento';
+      var bq = document.createElement('blockquote');
+      var p = document.createElement('p');
+      p.textContent = d.texto;
+      bq.appendChild(p);
+      var cap = document.createElement('figcaption');
+      var box = document.createElement('div');
+      var b = document.createElement('b');
+      b.textContent = d.nome || '';
+      var sp = document.createElement('span');
+      sp.textContent = [d.cidade, d.publico].filter(Boolean).join(' · ');
+      box.appendChild(b); box.appendChild(sp); cap.appendChild(box);
+      fig.appendChild(bq); fig.appendChild(cap);
+      listaDep.appendChild(fig);
+    });
+    var secDep = document.querySelector('[data-depoimentos-secao]');
+    if (secDep) secDep.hidden = false;
+  }
+
   /* ---------- ano no rodapé ---------- */
   document.querySelectorAll('[data-ano]').forEach(function (el) { el.textContent = new Date().getFullYear(); });
 
