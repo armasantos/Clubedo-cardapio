@@ -466,3 +466,10 @@ body.tem-cookies .barra-compra, body.tem-cookies .whats-flutuante { visibility: 
 .chamada-final .lead { color: var(--cafe); margin: 14px 0 26px; }
 .chamada-final__acoes { display: grid; gap: 12px; justify-items: center; }
 @media (min-width: 640px) { .chamada-final__acoes { grid-auto-flow: column; justify-content: center; } }
+
+/* HERO: botão com preço */
+.hero__cta { display: inline-block; white-space: nowrap; line-height: 1.25; }
+.hero__preco { font-weight: 900; }
+@media (min-width: 900px) { .hero__acoes { grid-auto-flow: row; } }
+@media (max-width: 420px) { .hero__cta { padding-inline: 22px; font-size: 1.08rem; } }
+@media (max-width: 370px) { .hero__cta { white-space: normal; max-width: 100%; } .hero__preco { white-space: nowrap; } }
