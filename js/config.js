@@ -48,7 +48,7 @@ window.CC_CONFIG = {
   /* ---- Condições da assinatura de 30 dias (FAQ e oferta) ---- */
   assinatura: {
     renovacao: "A assinatura renova automaticamente a cada 30 dias, com mais 4 semanas de cardápio.",
-    cancelamento: "",          // ex.: "Cancele quando quiser pela área do cliente da Eduzz."
+    cancelamento: "Cancele quando quiser pela área do cliente da Eduzz, sem multa.",
   },
 
   /* ---- Medição (só carrega depois que o visitante aceita cookies) ---- */
