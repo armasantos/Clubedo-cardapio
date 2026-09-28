@@ -11,6 +11,8 @@ Os recortes quadrados usados no tablet do HERO ficam em `images/pratos/`.
 | `casal-idoso-cozinhando.jpg` | /idosos: seção "para quem cuida" |
 | `familia-mesa-cafe.jpg` | /familias e arte Eduzz Famílias 7 dias |
 | `familia-cozinhando.jpg` | /familias e arte Eduzz Famílias 30 dias |
+| `mulher-saboreando-refeicao.jpg` | /para-voce e arte Eduzz Para Você 7 dias |
+| `mulher-sorrindo-refeicao.jpg` | /para-voce e arte Eduzz Para Você 30 dias |
 
 ## Café da manhã
 `cafe-ovos-panquecas-suco`, `cafe-torrada-ovo-tomate`, `cafe-torrada-ovo-abacate`,
