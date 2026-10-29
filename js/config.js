@@ -28,7 +28,7 @@ window.CC_CONFIG = {
   /* ---- Responsável técnica ---- */
   rita: {
     nome: "Rita Magalhães",
-    crn: "",                   // ex.: "CRN-3 00000"
+    crn: "CRN-SP nº 58896",
   },
 
   /* ---- Produtos (links de checkout da Eduzz e preços) ----
